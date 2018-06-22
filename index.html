@@ -1,0 +1,135 @@
+<!doctype html>
+<html ng-app>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>jQuery graph.js Plugin Demo</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link href="http://www.jqueryscript.net/css/jquerysctipttop.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bar.css">
+    <style>
+    body { background-color:#fafafa; font-family:'Roboto';}
+    </style>
+  </head>
+  <body>
+
+
+  <div class="container-fluid">
+
+      <div class="col-md-3">
+
+          <label for="January">January</label>
+          <input type="number" id="January" class="form-control yt" ng-model="January">
+          <label for="February">February</label>
+          <input type="number" id="February" class="form-control yt" ng-model="February">
+
+          <label for="March">March</label>
+          <input type="number" id="March" class="form-control yt" ng-model="March">
+          <label for="April ">April </label>
+          <input type="number" id="April " class="form-control yt" ng-model="April ">
+
+          <label for="May">May</label>
+          <input type="number" id="May" class="form-control yt" ng-model="May">
+          <label for="June ">June </label>
+          <input type="number" id="June " class="form-control yt" ng-model="June ">
+
+          <label for="July">July</label>
+          <input type="number" id="July" class="form-control yt" ng-model="July">
+          <label for="August">August </label>
+          <input type="number" id="August" class="form-control yt" ng-model="August ">
+
+          <label for="September">September</label>
+          <input type="number" id="September" class="form-control yt" ng-model="September">
+          <label for="October">October </label>
+          <input type="number" id="October" class="form-control yt" ng-model="October ">
+
+          <label for="November">November</label>
+          <input type="number" id="November" class="form-control yt" ng-model="November">
+          <label for="December ">December </label>
+          <input type="number" id="December " class="form-control yt" ng-model="December ">
+      </div>
+      <div id="wrapper" class="col-md-6">
+
+          <div class="chart">
+              <table id="data-table" border="1" cellpadding="10" cellspacing="0"
+                     summary="Percentage of knowledge acquired during my experience
+            for each technology or language.">
+                  <thead>
+                  <tr>
+                      <td>&nbsp;</td>
+                      <th scope="col"></th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                      <td>{{January}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{February}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{March}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{April}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{May}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{June }}</td>
+                  </tr>
+                  <tr>
+                      <td>{{July}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{August}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{September }}</td>
+                  </tr>
+                  <tr>
+                      <td>{{October}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{November}}</td>
+                  </tr>
+                  <tr>
+                      <td>{{December}}</td>
+                  </tr>
+                  </tbody>
+              </table>
+          </div>
+      </div>
+
+  </div>
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.2/angular.min.js"></script>
+
+  <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+  <script>
+
+
+  </script>
+      <script src="js/graph.js"></script>
+      <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+  </body>
+</html>
